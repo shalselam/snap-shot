@@ -1,0 +1,114 @@
+.max-width {
+  max-width: 1400px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.search-class {
+  display: flex;
+  padding: 15px;
+}
+
+.inputs {
+  padding: 15px;
+  border: 1px solid grey;
+  border-right: none;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: rgba(128, 128, 128, 0.103);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  width: 400px;
+}
+.input2{
+  border: 1px solid grey  !important;
+  width:fit-content
+}
+
+.icon-btn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid grey;
+  border-left: none;
+  width:60px;
+  cursor: pointer;
+}
+.icon-btn:hover{
+  
+  background-color: rgba(0, 0, 0, 0.507);
+  
+}
+.icon-btn:hover svg path{
+
+ stroke: white;
+  
+}
+.btm-btn{
+  display: flex;
+  gap: 28px;
+  margin:30px;
+  
+}
+.btm-btn button{
+  width: 100px;
+  height: 30px;
+  font-size: 1rem;
+  background-color:black;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container{
+  display: flex;
+ flex-wrap: wrap;
+ gap: 1rem;
+ justify-content: center;
+}
+
+.image-container img{
+  height: 200px;
+  width:300px;
+  border: 1px solid grey;
+  object-fit: cover;
+  transition: all;
+  transition-duration: 1.5s;
+}
+.single-image-container{
+  height: 200px;
+  width:300px;
+  overflow: hidden;
+
+}
+.image-container img:hover{
+  transition: all;
+  transition-duration: 1.5s;
+  transform: scale(120%);
+
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
