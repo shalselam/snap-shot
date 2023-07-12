@@ -13,7 +13,7 @@ const Header = (props) => {
         if (event.key === 'Enter') {
           // 👇 Get input value
           setAmount(event.target.value);
-          console.log(event.key);
+          console.log('shaalom');
         }
       };
     const inputHandler = e => {
